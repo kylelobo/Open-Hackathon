@@ -17,7 +17,19 @@ This page contains the links to important references which participants can refe
 
 5. [Proof of Stake-Velocity ( POSV )](https://github.com/tomochain/tomochain).
 
-[Comparision ( POSV vs Clique )](./Comparision_POSV_Clique.html).
+6. [Comparision ( POSV vs Clique )](./Comparision_POSV_Clique.html).
+
+
+## XinFin Blockchain Related References
+
+a. [XinFin-Network Stats, Wallet](https://XinFin.Network).
+
+b. [How to Setup XinFin Node](https://xinfin.org/setup-masternode.php).
+
+c. [XinFin Developer Resource](https://docs.xinfin.org/).
+
+d. [XinFin Other Resource](https://xinfin.org/resources.php).
+
 
 ## Blockchain Related References
 

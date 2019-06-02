@@ -2,33 +2,27 @@
 
 ## VISION
 
-To innovate and replace existing non-efficient closed systems with more transparent, efficient system using blockchain.
+To innovate and replace existing non-efficient closed systems with more transparent, efficient system using XinFin blockchain.
 
 ## NOTES
-1. Participants are given complete freedom for choosing technology, programming languages etc. in the development of the application.
-2. Problem statements are meant to be generic in order to give participants flexibility to work around.
+Participants are given complete freedom for choosing technology, programming languages etc. in the development of the application.
 
 ## Submission Guidelines
  [Submission Guidelines](./SubmissionGuide).
-
 
 ## Open Problem Statements
 
 Below we have listed the problem statements which are open to all. In order to participate, create a proposal in the format specified & make a pull request.
 
-Prizes upto $10000 USD worth of XDC will be given if your solution is expected.
+## Problem Statement 1: Optimize delegated proof of stake (DPoS) consensus
 
-## Task 1 : Change Proof of Work (PoW) Consensus in blockchain
-
-Too much energy consumption makes PoW consensus non practical and not suitable for real world system.
-We need to find out other innovative consensus where transaction and network remains de-centralised but without much energy consumption.
-Restriction numbers of node make its more centralized while large number of nodes makes the system very slow.
-Many industry experts are trying out different consensus like DPoS.
-We need to find out innovative solution to replace PoW Consensus with other Consensus which gives more efficiency, speed and less energy consumption.
+In DPoS, Restriction numbers of node make its more centralized while large number of nodes makes the system very slow.
+We are proposing Optimization in DPoS consensus. XinFin DPoS Development progress detail at: https://xinfin.org/dpos_tech_brief.php  
 
 ### Consensus Related References
 
-a. DPOS
+a. POS- Proof Of Stake
+  * [Parity Tech Aura - Authority Round](https://wiki.parity.io/Aura)
   * [XDPOS](https://github.com/riteshkakkad/XDPOS).
   * [EOS](https://github.com/EOSIO).
   * [TRON](https://github.com/tronprotocol/java-tron).
@@ -47,24 +41,78 @@ g. [Smart contracts for PoS ](https://github.com/poanetwork/pos-contracts).
 
 ### Blockchain Related References
 
-a. [XDC Nodes](https://github.com/XinFinOrg/XDC01-docker-Nnodes).
+a. [XinFin-Network Stats, Wallet](https://XinFin.Network).
 
-b. [Ethereum](https://github.com/ethereum/go-ethereum).
+b. [How to Setup XinFin Node](https://xinfin.org/setup-masternode.php).
 
-c. [Bitcoin](https://github.com/bitcoin/bitcoin).
+c. [XinFin Developer Resource](https://docs.xinfin.org/).
+
+d. [XinFin Other Resource](https://xinfin.org/resources.php).
+
+e. [Ethereum](https://github.com/ethereum/go-ethereum).
+
+f. [Bitcoin](https://github.com/bitcoin/bitcoin).
 
 
-## Task 2 : Cross Blockchain Interoperability.
+## Problem Statement 2: Cross Blockchain Interoperability of XinFin Network with R3 Corda Network
 
-Various blockchain need to connect to each other to create more efficiency in system. Like Bitcoin, Ripple and IOTA. We need to Create Bridge between various blockchain.
+As a R3 Corda Partner XinFin going to provide bridge to access public state on XinFin Blockchain to R3 consortium of over 200+ financial institutions. We need to Create Bridge between XinFin Network and R3 Corda. This will create the ability to relay R3 Corda a limited set of data and transactions from privacy channels to the XinFin public network.
+
+### At the time of development of bridge keep below mentioned Standard:
+a. [ISO20022 Data Standard](https://www.iso20022.org/sites/default/files/documents/general/ISO20022_API_JSON_Whitepaper_Final_20180129.pdf).
+
+b. [ERP data Standard](https://www.programmableweb.com/category/erp/api).
+
+c. [Open Banking Standard](https://openbanking.atlassian.net/wiki/spaces/DZ/pages/16320694/Open+Data+API+Specifications).
+
+d. [SWIFT Data Standard](https://www.swift.com/our-solutions/interfaces-and-integration/swift-apis).
+
+### XinFin and R3 Corda Blockchain References
+
+a. [XinFin-Network Stats, Wallet](https://XinFin.Network).
+
+b. [How to Setup XinFin Node](https://xinfin.org/setup-masternode.php).
+
+c. [XinFin Developer Resource](https://docs.xinfin.org/).
+
+d. [XinFin Other Resource](https://xinfin.org/resources.php).
+
+e. [R3 Corda Github](https://github.com/corda/corda).
+
+f. [R3 Corda Developer Resource](https://docs.corda.net/).
+
+### Corda-XinFin Bridge Functionality
+
+The Relayer Bridge deploys [ Corda Smart ContractState](https://docs.corda.net/api-states.html#api-states) —>[Onto]-> XinFin Network Smart Contract State (ContractInstance)
+
+Functionalities are:
+- Contract Creation (with function support "isBurnable", "isUpgradeable", "isPausable") and create Transaction Hash
+- Atomic Swap (Include Hash of the transaction)
+- ContractStatus, Token Transfer Events and Event Logs
+- Hide Transactions Details (Needs Pre-compiled contract on EVM)
 
 ### Blockchain Interoperability References
 
 a. [Parity-Bridge](https://github.com/paritytech/parity-bridge).
 
-b. [BTCRelay](https://github.com/ethereum/btcrelay).
+b. [Peace Bridge is an ETC-ETH bridge](https://github.com/YZhenY/peaceNotRelay).
 
-## Task 3 : XDCE Token Staking Function.
+c. [BTCRelay](https://github.com/ethereum/btcrelay).
+
+### Blockchain Interoperability References
+
+a. [Parity-Bridge](https://github.com/paritytech/parity-bridge).
+
+b. [Peace Bridge is an ETC-ETH bridge](https://github.com/YZhenY/peaceNotRelay).
+
+c. [BTCRelay](https://github.com/ethereum/btcrelay).
+
+## For Hackathons / Query
+
+Join our [Public Slack Group](https://launchpass.com/xinfin-public) or Join our [Telegram Developer Group](https://t.me/XinFinDevelopers) for any technical Development related Issue.
+
+
+## Problem Statement 3 : XDCE Token Staking Function.
 
 A staking mechanism requires users who offer compute power or other resources to the service takers in the ecosystem to put up a portion of their tokens in order to do so. If a user has no tokens to stake, but wants to support the network by providing resources they must purchase them. In exchange for staking their tokens and providing the service a financial reward is received. By forcing providers to take a financial risk you are weeding out bad actors.
 
@@ -82,11 +130,11 @@ Read more detailed requirement [here](https://github.com/XinFinOrg/Hackathon/blo
 
 ## For Hackathons
 
-Below are the links to the specific problem statements for ongoing hackathons :
+Below are the links to the specific problem statements for previously held hackathons. Join our [Public Slack Group](https://launchpass.com/xinfin-public) to stay updated with ongoing XinFin events.
 
 * [SPIT Hackathon](./SPIT/ReadMe.md).
 * [Hackference](./Hackference-2018/ReadMe.md).
-
+* [Standford University-TreeHacks](./Standford-University-TreeHacks/README.md).
 
 ## Contacting Us
 

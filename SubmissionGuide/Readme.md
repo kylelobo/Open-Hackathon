@@ -1,10 +1,9 @@
-# Welcome
+
+# Submission Guidelines
 
 Welcome to the submission repository for the Hackathons associated with XinFin.
 
-You can read more about XinFin and it's protocol on the [Docs site](https://docs.xinfin.org).
-
-# Submission Guidelines
+You can read more about XinFin and it's protocol on the [Documents and Resource](https://docs.xinfin.org/docs).
 
 Participating in the hackathon is as easy as contributing to an open source project on GitHub. Exactly so, because you will register your project by creating an issue in this repository, and submit it by creating a pull request.
 
@@ -50,3 +49,11 @@ We'd also recommend referencing the issue you created in step 1 [using keywords]
 
 ### 4) Congratulate your team (and yourself) on a job well-done
 Whether or not you get a prize, you deserve to be proud of your work. Thanks for participating in the hackathon!
+
+**Developer Community. 
+
+Telegram Channel: https://t.me/XinFinDevelopers
+
+Free Slack Invite LaunchPass : https://launchpass.com/xinfin-public
+
+Forum: http://XinFin.net
